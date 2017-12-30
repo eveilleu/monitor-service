@@ -3,10 +3,11 @@ package ca.randomname.monitor.model;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonInclude;
 
+import java.io.Serializable;
 import java.util.List;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class MonitoringData {
+public class MonitoringData implements Serializable {
 
     private String hostname;
 
