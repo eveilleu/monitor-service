@@ -1,0 +1,21 @@
+group 'ca.randomname'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'org.springframework.boot'
+
+//bootRun {
+//    jvmArgs "-agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=5005"
+//}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project(':monitor-api')
+    compile project(':monitor-impl')
+    compile("org.springframework.boot:spring-boot-starter-web")
+    testCompile('org.springframework.boot:spring-boot-starter-test')
+    testCompile('com.jayway.jsonpath:json-path')
+}
