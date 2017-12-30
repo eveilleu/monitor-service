@@ -1,0 +1,5 @@
+rootProject.name = 'monitor'
+include 'monitor-api'
+include 'monitor-impl'
+include 'monitor-app'
+
