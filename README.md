@@ -2,7 +2,7 @@
 Fans Entertainment - Coding Test for Architect Candidates
 
 
-This service in bundles with SpringBoot.
+This service is bundled with SpringBoot.
 
 To execute
 
