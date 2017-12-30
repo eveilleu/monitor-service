@@ -4,9 +4,9 @@ version '1.0-SNAPSHOT'
 apply plugin: 'java'
 apply plugin: 'org.springframework.boot'
 
-bootRun {
-    jvmArgs "-agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=5005"
-}
+//bootRun {
+//    jvmArgs "-agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=5005"
+//}
 
 repositories {
     mavenCentral()
